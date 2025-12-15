@@ -1,0 +1,14 @@
+:root {
+    --accent: #5a9450;
+    --bg: black;
+}
+
+/* html, */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: var(--bg);
+    font-family: "Comfortaa", sans-serif;
+}

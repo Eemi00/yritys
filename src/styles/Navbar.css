@@ -1,0 +1,5 @@
+.navbar-main-container {
+    position: fixed;
+    color: white;
+    z-index: 20;
+}
