@@ -1,24 +1,16 @@
 import "../styles/Hero.css"
-// import Orb from './Orb';
 import { Link } from "react-router-dom";
 import BlurText from "./BlurText";
 import { motion } from 'framer-motion';
-
-import Silk from './Silk';
+import Silk from "./Silk";
 
 
 export default function Hero() {
     return (
         <div className="hero-container">
-            {/* <Orb
-                hoverIntensity={0.5}
-                rotateOnHover={true}
-                hue={120}
-                forceHoverState={true}
-            /> */}
-            <div style={{ width: "100vw", height: "100vh", position: "absolute" }}>
+            <div style={{ width: "100vw", height: "100vh", position: "absolute", filter: "brightness(70%)" }}>
                 <Silk
-                    speed={2.7}
+                    speed={21.7}
                     scale={1}
                     color="#08CB00"
                     noiseIntensity={2.3}
