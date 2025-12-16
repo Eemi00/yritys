@@ -1,6 +1,16 @@
 :root {
-    --accent: #5a9450;
-    --bg: black;
+
+    --accent: #08CB00;
+    --darkGreen: #253900;
+    --black: #000000;
+    --silver: #EEEEEE;
+
+
+    /* Text colors */
+    --text-default: var(--color-gray-900);
+    /* high contrast */
+    --text-muted: var(--color-gray-600);
+    --text-on-dark: var(--color-white);
 }
 
 /* html, */
@@ -9,6 +19,70 @@ body {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-    background-color: var(--bg);
+    background-color: var(--black);
     font-family: "Comfortaa", sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    /* 16px */
+    letter-spacing: normal;
+    /* default */
+    line-height: 1.5;
+    /* 150% */
+}
+
+/* Headings */
+h6 {
+    font-size: 1rem;
+    /* 16px */
+    letter-spacing: -0.005em;
+    /* -0.5% */
+    line-height: 1.4;
+    /* estimated */
+}
+
+h5 {
+    font-size: 1.25rem;
+    /* 20px */
+    letter-spacing: -0.005em;
+    /* same as h6 */
+    line-height: 1.35;
+    /* estimated */
+}
+
+h4 {
+    font-size: 1.5625rem;
+    /* 25px */
+    letter-spacing: -0.01em;
+    /* midpoint */
+    line-height: 1.3;
+    /* 130% */
+}
+
+h3 {
+    font-size: 1.953rem;
+    /* ~31px */
+    letter-spacing: -0.015em;
+    /* -1.5% */
+    line-height: 1.2;
+    /* estimated */
+}
+
+h2 {
+    font-size: 2.441rem;
+    /* ~39px */
+    letter-spacing: -0.017em;
+    /* midpoint */
+    line-height: 1.1;
+    /* 110% */
+}
+
+h1 {
+    font-size: 3.052rem;
+    /* ~49px */
+    letter-spacing: -0.02em;
+    /* -2% */
+    line-height: 1;
+    /* 100% */
 }
