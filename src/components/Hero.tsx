@@ -1,8 +1,8 @@
 import "../styles/Hero.css"
 import { Link } from "react-router-dom";
-import BlurText from "./BlurText";
+import BlurText from "../assets/BlurText";
 import { motion } from 'framer-motion';
-import Silk from "./Silk";
+import Silk from "../assets/Silk";
 
 
 export default function Hero() {
