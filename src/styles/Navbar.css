@@ -36,7 +36,7 @@
 }
 
 .navbar-links a:hover {
-    background: var(--silver);
+    background: var(--accent);
     color: var(--black);
 }
 

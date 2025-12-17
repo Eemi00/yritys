@@ -1,4 +1,10 @@
 .ss-main-container {
-    width: 100%;
     color: white;
+    background-color: var(--darkGreen);
+    padding: 2rem 1rem;
+}
+
+.ss-main-container .row {
+    max-width: 1200px;
+    margin: 0 auto;
 }
