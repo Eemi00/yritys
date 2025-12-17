@@ -17,10 +17,10 @@
 
 .navbar,
 .navbar.scrolled {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navbar-logo {
@@ -47,9 +47,8 @@
     text-decoration: none;
 }
 
-.navbar-links a:hover {
-    background: var(--accent);
-    color: var(--black);
+.navbar-links a.active {
+    text-decoration: underline;   
 }
 
 .menu-toggle {

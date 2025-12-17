@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import '../styles/Navbar.css'
 
 export default function Navbar() {
@@ -34,7 +34,15 @@ export default function Navbar() {
             </button>
 
             <ul className={`navbar-links ${open ? 'show' : ''}`}>
-                <li><Link to="/" onClick={() => setOpen(false)}>Etusivu</Link></li>
+                <li>
+                    <NavLink
+                        to="/"
+                        onClick={() => setOpen(false)}
+                        className={({ isActive }) => (isActive ? 'active' : '')}
+                    >
+                        Etusivu
+                    </NavLink>
+                </li>
             </ul>
 
             {open && <div className="menu-overlay" onClick={() => setOpen(false)}></div>}
