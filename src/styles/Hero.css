@@ -31,8 +31,9 @@
 }
 
 .hero-text-container {
-    width: 30%;
-    z-index: 1;
+    max-width: 800px;
+    width: 90%;
+    z-index: 15;
 }
 
 .hero-link-container {
@@ -46,20 +47,4 @@
     font-size: 50px;
     font-weight: 700;
     color: white;
-}
-
-.hero-link {
-    text-decoration: none;
-    padding: 15px 25px;
-    color: white;
-    border-radius: 25px;
-    border: 1px solid white;
-    transition: 0.3s ease;
-    display: inline-block;
-}
-
-.hero-link:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    transform: translateY(-5px);
 }

@@ -1,10 +1,5 @@
 .ss-main-container {
+    min-height: 50vh;
     color: white;
-    background-color: var(--darkGreen);
-    padding: 2rem 1rem;
-}
-
-.ss-main-container .row {
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: pink;
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import BlurText from "../assets/BlurText";
 import { motion } from 'framer-motion';
 import Silk from "../assets/Silk";
-
+import GlassSurface from "../assets/GlassSurface";
 
 export default function Hero() {
     return (
@@ -34,7 +34,15 @@ export default function Hero() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.8, duration: 0.6, ease: "easeOut" }}
                     >
-                        <Link className="hero-link" to="/">Link</Link>
+                        {/* <Link className="hero-link" to="/">Link</Link> */}
+                        <GlassSurface
+                            width={300}
+                            height={200}
+                            borderRadius={24}
+                            className="my-custom-class"
+                        >
+                            <h2>Link</h2>
+                        </GlassSurface>
                     </motion.div>
                 </div>
             </div>
